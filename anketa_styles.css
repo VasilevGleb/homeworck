@@ -1,0 +1,64 @@
+body {
+    font-family: unset;
+    background-color: rgb(27, 0, 0);
+}
+
+.form-container {
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(245, 82, 82, 0.925);
+}
+
+h1 {
+    text-align: center
+}
+
+label,
+p {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="file"]:hover {
+    color: #f37f20;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #f37f20;
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none
+}
+
+input[type="submit"]:hover {
+    background-color: #f37f20;
+}
